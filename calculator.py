@@ -21,7 +21,7 @@ def btnEqualsInput():
         evaluate = str(eval(operator))
         operator = evaluate
     except:
-        eavluate = "error"
+        evaluate = "error"
     text_input.set(evaluate)
 
 
